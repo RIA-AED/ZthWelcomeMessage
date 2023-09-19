@@ -1,0 +1,12 @@
+name: ZthWelcomeMessage
+version: '${project.version}'
+main: ink.magma.zthwelcomemessage.ZthWelcomeMessage
+api-version: '1.18'
+authors: [ MagmaBlock ]
+description: 支持游戏内编辑的登录欢迎消息插件
+softdepend:
+  - PlaceholderAPI
+commands:
+  welcome-msg:
+    usage: /welcome-msg <操作> <参数> (出现此提示基本是您的指令缺少参数)
+    permission: zth.welcome-message.admin
